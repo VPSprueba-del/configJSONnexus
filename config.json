@@ -17,25 +17,25 @@
     "randomx": {
         "init": -1,
         "init-avx2": -1,
-        "mode": "auto", 
-        "1gb-pages": true, 
+        "mode": "auto",
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
         "numa": true,
-        "scratchpad_prefetch_mode": 2 
+        "scratchpad_prefetch_mode": 1
     },
     "cpu": {
         "enabled": true,
         "huge-pages": true,
         "huge-pages-jit": false,
-        "hw-aes": true, 
+        "hw-aes": true,
         "priority": null,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 32, // Aumenté el número de hilos
+        "max-threads-hint": 16,
         "asm": true,
-        "argon2-impl": 2, // Cambié a la implementación AVX2
+        "argon2-impl": 1,
         "cn/0": false,
         "cn-lite/0": false
     },
