@@ -18,9 +18,9 @@
         "init": -1,
         "init-avx2": -1,
         "mode": "light",
-        "1gb-pages": false,
-        "rdmsr": true,
-        "wrmsr": true,
+        "1gb-pages": true,
+        "rdmsr": false,
+        "wrmsr": false,
         "cache_qos": false,
         "numa": true,
         "scratchpad_prefetch_mode": 1
