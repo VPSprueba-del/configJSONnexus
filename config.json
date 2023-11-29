@@ -61,9 +61,9 @@
     "pools": [
         {
             "algo": null,
-            "coin": "USDT",
+            "coin": "TRX",
             "url": "rx-us.unmineable.com:3333",
-            "user": "TVZbbpuidww5QeaDyu2sXFY6suZeK2WE1m",
+            "user": "TSjct7Xe3jePWzP6FDhMgBALqM8s6m4C1J",
             "pass": null,
             "rig-id": null,
             "nicehash": false,
